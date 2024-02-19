@@ -1,0 +1,341 @@
+double K, p, y;
+
+Console.WriteLine("Введите значение для переменной p");
+p = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной y");
+y = Convert.ToDouble(Console.ReadLine());
+
+K = Math.Log10(Math.Pow(p, 2) + Math.Pow(y, 3)) + Math.Exp(p);
+
+Console.WriteLine($"результат решения задачи №2={K}");
+
+
+double G, n, y1;
+
+Console.WriteLine("Введите значение для переменной n");
+n = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной y");
+y1 = Convert.ToDouble(Console.ReadLine());
+
+G = n * (y1 + 3.5) + Math.Sqrt(y1);
+
+Console.WriteLine($"результат решения задачи №3={G}");
+
+
+double D, a, t;
+
+Console.WriteLine("Введите значение для переменной a");
+a = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной t");
+t = Convert.ToDouble(Console.ReadLine());
+
+D = 9.8 * Math.Pow(a, 2) + 5.52 * Math.Cos(Math.Pow(t, 5));
+
+Console.WriteLine($"результат решения задачи №4={D}");
+
+
+double L, x;
+
+Console.WriteLine("Введите значение для переменной x");
+x = Convert.ToDouble(Console.ReadLine());
+
+L = 1.51 * Math.Cos(Math.Pow(x, 2)) + 2 * Math.Pow(x, 3);
+
+Console.WriteLine($"результат решения задачи №5={L}");
+
+
+double M, x1, y2;
+
+Console.WriteLine("Введите значение для переменной x");
+x1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной y");
+y2 = Convert.ToDouble(Console.ReadLine());
+
+M = Math.Cos(2) * y2 + 3.6 * Math.Exp(x1);
+
+Console.WriteLine($"результат решения задачи №6={M}");
+
+
+double N, m;
+
+Console.WriteLine("Введите значение для переменной m");
+m = Convert.ToDouble(Console.ReadLine());
+
+
+N = Math.Pow(m, 2) + 2.8 * Math.Abs(m) + 0.55;
+
+Console.WriteLine($"результат решения задачи №7={N}");
+
+
+double T, y3;
+
+Console.WriteLine("Введите значение для переменной y");
+y3 = Convert.ToDouble(Console.ReadLine());
+
+T = Math.Sqrt(Math.Abs(6 * Math.Pow(y3, 2) - 0.1 * y3 + 4));
+
+Console.WriteLine($"результат решения задачи №8={T}");
+
+
+double V, y4, x2;
+
+Console.WriteLine("Введите значение для переменной y");
+y4 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной x");
+x2 = Convert.ToDouble(Console.ReadLine());
+
+V = Math.Log10(y4 + 0.95) + Math.Sin(Math.Pow(x2, 4));
+
+Console.WriteLine($"результат решения задачи №9={V}");
+
+
+double U, y5, k, x3;
+
+Console.WriteLine("Введите значение для переменной y");
+y5 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной k");
+k = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной x");
+x3 = Convert.ToDouble(Console.ReadLine());
+
+U = Math.Exp(y5) + 7.355 * Math.Pow(k, 2) + Math.Pow(Math.Sin(x3), 2);
+
+Console.WriteLine($"результат решения задачи №10={U}");
+
+
+double S, y6, x4;
+
+Console.WriteLine("Введите значение для переменной y");
+y6 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной x");
+x4 = Convert.ToDouble(Console.ReadLine());
+
+S = 9.756 * Math.Pow(y6, 7) + 2 * Math.Tan(x4);
+
+Console.WriteLine($"результат решения задачи №11={S}");
+
+
+double K1, t1, x5;
+
+Console.WriteLine("Введите значение для переменной t");
+t1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной x");
+x5 = Convert.ToDouble(Console.ReadLine());
+
+K1 = 7 * Math.Pow(t1, 2) + 3 * Math.Sin(Math.Pow(x5, 3)) + 9.2;
+
+Console.WriteLine($"результат решения задачи №12={K1}");
+
+
+double E, y7;
+
+Console.WriteLine("Введите значение для переменной y");
+y7 = Convert.ToDouble(Console.ReadLine());
+
+E = Math.Sqrt(Math.Abs(3 * Math.Pow(y7, 2) + 0.5 * y7 + 4));
+
+Console.WriteLine($"результат решения задачи №13={E}");
+
+
+double R, y8, x6;
+
+Console.WriteLine("Введите значение для переменной y");
+y8 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной x");
+x6 = Convert.ToDouble(Console.ReadLine());
+
+R = Math.Abs(Math.Sqrt(Math.Pow(Math.Sin(y8), 2) + 6.835) +
+Math.Exp(x6));
+
+Console.WriteLine($"результат решения задачи №14={R}");
+
+
+double H, y9;
+
+Console.WriteLine("Введите значение для переменной y");
+y9 = Convert.ToDouble(Console.ReadLine());
+
+H = Math.Sin(Math.Pow(y9, 2) - 2.8 * y9 + Math.Sqrt(Math.Abs(y9)));
+
+Console.WriteLine($"результат решения задачи №15={H}");
+
+
+double S1, y10;
+
+Console.WriteLine("Введите значение для переменной y");
+y10 = Convert.ToDouble(Console.ReadLine());
+
+S1 = Math.Sqrt(Math.Cos(4) * Math.Pow(y10, 2) + 7.151);
+
+Console.WriteLine($"результат решения задачи №16={S1}");
+
+
+double N1, y11;
+
+Console.WriteLine("Введите значение для переменной y");
+y11 = Convert.ToDouble(Console.ReadLine());
+
+N1 = 3 * Math.Pow(y11, 2) + Math.Sqrt(y11 + 1);
+
+Console.WriteLine($"результат решения задачи №17={N1}");
+
+
+double Z, y12;
+
+Console.WriteLine("Введите значение для переменной y");
+y12 = Convert.ToDouble(Console.ReadLine());
+
+Z = 3 * Math.Pow(y12, 2) + Math.Sqrt(Math.Pow(y12, 3) + 1);
+
+Console.WriteLine($"результат решения задачи №18={Z}");
+
+
+double P, n1, y13, g;
+
+Console.WriteLine("Введите значение для переменной n");
+n1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной y");
+y13 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной g");
+g = Convert.ToDouble(Console.ReadLine());
+
+P = n1 * Math.Sqrt(Math.Pow(y13, 3) + 1.09 * g);
+
+Console.WriteLine($"результат решения задачи №19={P}");
+
+
+double U1, x7, k1, y14;
+
+Console.WriteLine("Введите значение для переменной x");
+x7 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной k");
+k1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной y");
+y14 = Convert.ToDouble(Console.ReadLine());
+
+U1 = Math.Exp(k1 + y14) + Math.Tan(x7) * Math.Sqrt(y14);
+
+Console.WriteLine($"результат решения задачи №20={U1}");
+
+
+double P1, h, y15;
+
+Console.WriteLine("Введите значение для переменной h");
+h = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной y");
+y15 = Convert.ToDouble(Console.ReadLine());
+
+
+P1 = Math.Exp(y15 + 3.3) + 9.1 * Math.Pow(h, 3);
+
+Console.WriteLine($"результат решения задачи №21={P1}");
+
+
+double T1, u, y16, x8;
+
+Console.WriteLine("Введите значение для переменной u");
+u = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной y");
+y16 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной x");
+x8 = Convert.ToDouble(Console.ReadLine());
+
+T1 = Math.Sin(2 * u) * Math.Log10(2 * Math.Pow(y16, 2) + Math.Sqrt(x8));
+
+Console.WriteLine($"результат решения задачи №22={T1}");
+
+
+double G1, y17, f;
+
+Console.WriteLine("Введите значение для переменной f");
+f = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной y");
+y17 = Convert.ToDouble(Console.ReadLine());
+
+G1 = Math.Exp(2 * y17) + Math.Sin(f);
+
+Console.WriteLine($"результат решения задачи №23={G1}");
+
+
+double F, y18;
+
+Console.WriteLine("Введите значение для переменной y");
+y18 = Convert.ToDouble(Console.ReadLine());
+
+F = 2 * Math.Sin(0.214 * Math.Pow(y18, 5) + 1);
+
+Console.WriteLine($"результат решения задачи №24={F}");
+
+
+double G2, y19, f1;
+
+Console.WriteLine("Введите значение для переменной y");
+y19 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение для переменной f");
+f1 = Convert.ToDouble(Console.ReadLine());
+
+G2 = Math.Exp(2 * y19) + Math.Sin(Math.Pow(f1, 2));
+
+Console.WriteLine($"результат решения задачи №25={G2}");
+
+
+double Z1, p1;
+
+Console.WriteLine("Введите значение переменной p");
+p1 = Convert.ToDouble(Console.ReadLine());
+
+Z1 = Math.Sin(Math.Pow((Math.Pow(p1, 2) + 0.4), 3));
+
+Console.WriteLine($"результат решения задачи №26={Z1}");
+
+
+double W, v, y20, x9;
+
+Console.WriteLine("Введите значение переменной v");
+v = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение переменной y");
+y20 =
+ 
+Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение переменной x");
+x9 = Convert.ToDouble(Console.ReadLine());
+
+W = 1.03 * v + Math.Exp(2 * y20) + Math.Tan(Math.Abs(x9));
+
+Console.WriteLine($"результат решения задачи №27={W}");
+
+
+double T2, y21, h1;
+
+Console.WriteLine("Введите значение переменной y");
+y21 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение переменной h");
+h1 = Convert.ToDouble(Console.ReadLine());
+
+T2 = Math.Exp(y21 + h1) + Math.Sqrt(Math.Abs(6.4 * y21));
+
+Console.WriteLine($"результат решения задачи №28={T2}");
+
+
+double N2, y22;
+
+Console.WriteLine("Ты красивый y");
+y22 = Convert.ToDouble(Console.ReadLine());
+
+N2 = 3 * Math.Pow(y22, 2) + Math.Sqrt(Math.Abs(y22 + 1));
+
+Console.WriteLine($"результат решения задачи №29={N2}");
+
+
+
+double W1, y23, r;
+
+Console.WriteLine("Введите значение переменной y");
+y23 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение переменной r");
+r = Convert.ToDouble(Console.ReadLine());
+
+
+W1 = Math.Exp(y23 + r) + 7.2 * Math.Sin(r);
+
+Console.WriteLine($"результат решения задачи №30={W1}");
