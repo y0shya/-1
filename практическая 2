@@ -302,7 +302,7 @@ b3 = Convert.ToDouble(Console.ReadLine());
 
 F1 = ;
 
-Console.WriteLine($"результат решения задачи №20={F1}");
+Console.WriteLine($"результат решения задачи №22={F1}");
 
 double U1, x9, y8, k;
 
